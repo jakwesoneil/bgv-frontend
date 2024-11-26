@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+button {
+  cursor: pointer !important;
+}
+
+
+.alice-carousel__prev-btn-item, 
+.alice-carousel__next-btn-item {
+  @apply text-purple-500 text-5xl; /* Tailwind for purple color and size */
+}
+
+.alice-carousel__dots-item {
+  @apply bg-blue-500; /* Tailwind for dot color */
+}
+
+
+.alice-carousel__stage-item {
+  @apply bg-zinc-50 text-zinc-50 p-5; /* Background, text color, and padding */
+}
